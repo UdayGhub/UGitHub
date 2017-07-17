@@ -2,40 +2,17 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>Udayscompany</groupId>
-  <artifactId>addn</artifactId>
+  <groupId>MY_Jenkins</groupId>
+  <artifactId>My_GitRepo</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>addn</name>
+  <name>My_GitRepo</name>
   <url>http://maven.apache.org</url>
-   
-  <parent>
-  <groupId>Udayscompany</groupId>
-  <artifactId>hi</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  </parent>
-   <properties>
+
+  <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  
-  <build>
-   <plugins>
-   <plugin>
-   <groupId>org.jboss.as.plugins</groupId>
-   <artifactId>jboss-as-maven-plugin</artifactId>
-   <version>7.3.Final</version>
-   <configuration>
-   <jbossHome>D:\jboss7\jboss-as-7.1.0.CR1b\</jbossHome>
-   <serverName>default</serverName>	
-   <groupId>Udayscompany</groupId>
-   <artifactId>addn</artifactId>
-   <version>1.0-SNAPSHOT</version>
-   </configuration>
-   </plugin>
-   </plugins>
-  </build>
-   
 
   <dependencies>
     <dependency>

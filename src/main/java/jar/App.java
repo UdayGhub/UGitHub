@@ -1,4 +1,4 @@
-package Udayscompany;
+package jar;
 
 /**
  * Hello world!
